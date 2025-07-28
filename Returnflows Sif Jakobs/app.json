@@ -1,31 +1,39 @@
 {
-  "id": "8a12b7be-ee84-4d16-9f0a-5a7de460b0b4",
-  "name": "Returnflows Sif Jakobs",
-  "publisher": "Braeve",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "22.0.0.0",
-  "idRanges": [
-    {
-      "from": 77150,
-      "to": 77199
-    }
-  ],
-  "features": [
-    "NoImplicitWith"
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "id": "8a12b7be-ee84-4d16-9f0a-5a7de460b0b4",
+    "name": "Returnflows Sif Jakobs",
+    "publisher": "Braeve",
+    "version": "1.0.0.0",
+    "brief": "",
+    "description": "",
+    "privacyStatement": "",
+    "EULA": "",
+    "help": "",
+    "url": "",
+    "logo": "",
+    "dependencies": [
+        {
+            "id": "ec255f57-31d0-4ca2-b751-f2fa7c745abb",
+            "name": "Shopify Connector",
+            "publisher": "Microsoft",
+            "version": "26.3.36158.36193"
+        }
+    ],
+    "screenshots": [],
+    "platform": "1.0.0.0",
+    "application": "26.3.36158.36193",
+    "idRanges": [
+        {
+            "from": 77150,
+            "to": 77199
+        }
+    ],
+    "features": [
+        "NoImplicitWith"
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true,
+        "allowDownloadingSource": false,
+        "includeSourceInSymbolFile": false
+    },
+    "runtime": "15.0"
 }

@@ -7,5 +7,27 @@
       "path": ".AL-Go"
     }
   ],
-  "settings": {}
+  "settings": {
+    "launch": {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "name": "Sandbox_ReturnFlows",
+          "type": "al",
+          "request": "launch",
+          "environmentType": "Sandbox",
+          "environmentName": "Sandbox_ReturnFlows",
+          "startupObjectId": 22,
+          "breakOnError": "All",
+          "breakOnRecordWrite": "None",
+          "launchBrowser": false,
+          "enableSqlInformationDebugger": true,
+          "enableLongRunningSqlStatements": true,
+          "longRunningSqlStatementsThreshold": 500,
+          "numberOfSqlStatements": 10,
+          "tenant": "f520934c-e378-44e1-a635-d8709ebfa5ee"
+        }],
+      "compounds": []
+    }
+  }
 }
